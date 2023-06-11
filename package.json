@@ -21,6 +21,21 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/tema05-s-color-theme.json"
 			}
+		],
+		"languages": [
+			{
+				"id": "lua",
+				"extensions": [
+					".lua"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "lua",
+				"scopeName": "source.lua",
+				"path": "./syntaxes/lua.tmGrammar.json"
+			}
 		]
 	}
 }
