@@ -12,7 +12,8 @@
 		"url": "https://github.com/Tema05/tema05-s-color-theme"
 	},
 	"categories": [
-		"Themes"
+		"Themes",
+		"Programming Languages"
 	],
 	"contributes": {
 		"themes": [
@@ -25,16 +26,21 @@
 		"languages": [
 			{
 				"id": "lua",
+				"aliases": [
+					"Lua",
+					"lua"
+				],
 				"extensions": [
 					".lua"
-				]
+				],
+				"configuration": "./language-configuration.json"
 			}
 		],
 		"grammars": [
 			{
 				"language": "lua",
 				"scopeName": "source.lua",
-				"path": "./syntaxes/lua.tmGrammar.json"
+				"path": "./syntaxes/lua.tmLanguage.json"
 			}
 		]
 	}
