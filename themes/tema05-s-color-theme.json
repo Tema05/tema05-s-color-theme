@@ -178,7 +178,8 @@
 			"scope": [
 				"constant.numeric.json",
 				"constant.numeric.float.lua",
-				"constant.numeric.float.hexadecimal.lua"
+				"constant.numeric.float.hexadecimal.lua",
+				"constant.language.bool.lua"
 			],
 			"settings": {
 				"foreground": "#d19a66"
@@ -191,7 +192,8 @@
 				"support.function.library.lua",
 				"keyword.operator.lua",
 				"constant.character.escape.lua",
-				"support.function.lua"
+				"support.function.lua",
+				"constant.language.lua"
 			],
 			"settings": {
 				"foreground": "#56b6c2"
@@ -201,7 +203,7 @@
 			"scope": [
 				"keyword.local.lua",
 				"keyword.control.lua",
-				"constant.language.lua"
+				"constant.language.nil.lua"
 			],
 			"settings": {
 				"foreground": "#c678dd"

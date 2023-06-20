@@ -157,8 +157,16 @@
 			"name": "keyword.control.lua"
 		},
 		{
-			"match": "(?<![^.]\\.|:)\\b(false|nil(?!:)|true|_ENV|_G|_VERSION|math\\.(pi|huge|maxinteger|mininteger)|utf8\\.charpattern|io\\.(stdin|stdout|stderr)|package\\.(config|cpath|loaded|loaders|path|preload|searchers))\\b|(?<![.])\\.{3}(?!\\.)",
+			"match": "(?<![^.]\\.|:)\\b(_ENV|_G|_VERSION|math\\.(pi|huge|maxinteger|mininteger)|utf8\\.charpattern|io\\.(stdin|stdout|stderr)|package\\.(config|cpath|loaded|loaders|path|preload|searchers))\\b|(?<![.])\\.{3}(?!\\.)",
 			"name": "constant.language.lua"
+		},
+		{
+			"match": "(?<![^.]\\.|:)\\b(nil(?!:))\\b",
+			"name": "constant.language.nil.lua"
+		},
+		{
+			"match": "(?<![^.]\\.|:)\\b(false|true)\\b",
+			"name": "constant.language.bool.lua"
 		},
 		{
 			"match": "(?<![^.]\\.|:)\\b(self)\\b",
