@@ -190,7 +190,8 @@
 				"constant.character.escape.json",
 				"support.function.library.lua",
 				"keyword.operator.lua",
-				"constant.character.escape.lua"
+				"constant.character.escape.lua",
+				"support.function.lua"
 			],
 			"settings": {
 				"foreground": "#56b6c2"
