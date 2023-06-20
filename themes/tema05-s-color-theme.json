@@ -211,7 +211,8 @@
 		},
 		{
 			"scope": [
-				"support.function.any-method.lua"
+				"support.function.any-method.lua",
+				"entity.name.method.lua"
 			],
 			"settings": {
 				"foreground": "#61afef"

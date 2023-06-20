@@ -3,9 +3,9 @@
 	"displayName": "Tema05's color theme",
 	"description": "Просто тема.",
 	"publisher": "Tema05",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"engines": {
-		"vscode": "^1.12.0"
+		"vscode": "^1.67.0"
 	},
 	"repository": {
 		"type": "git",
