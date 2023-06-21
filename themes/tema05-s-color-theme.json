@@ -230,6 +230,7 @@
 		{
 			"scope": [
 				"comment.line.double-dash.lua",
+				"comment.line.double-dash.documentation.lua",
 				"comment.block.lua"
 			],
 			"settings": {
